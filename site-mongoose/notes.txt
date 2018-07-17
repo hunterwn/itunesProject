@@ -1,0 +1,2 @@
+- express-session store must be updated to a secure option.
+- saveUninitialized must comply with laws requiring permission before setting a cookie.

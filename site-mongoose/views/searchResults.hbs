@@ -1,0 +1,13 @@
+<h1>Results</h1>
+<p>Search term: {{ output }}</p>
+
+
+
+{{#each results}}
+    <img src="{{this.artworkUrl100}}" alt="artwork">
+    <ul>
+        <li>{{this.artistName}}</li>
+        <li>{{this.trackName}}</li>
+    </ul>
+{{/each}}
+
